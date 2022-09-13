@@ -28,14 +28,14 @@ export default {
       this.showModal = !this.showModal
     },
   formatNumber(num) {
-    let parsed = Math.round(num) 
-    
-    
+    let parsed = Math.round(num)
+
+
     return parsed.toLocaleString('de-DE');
     }
   },
   computed: {
-    
+
   }
 }
 
@@ -114,7 +114,7 @@ export default {
 <style src="@vueform/slider/themes/default.css">
 </style>
 
-<style  
+<style
  scoped>
 p {
   margin: 0;
@@ -122,7 +122,7 @@ p {
 #modalToggler {
   z-index: -1;
   position: absolute;
- 
+
   width: 100vw;
   height: 100vh;
   font-size: 24px;
@@ -146,7 +146,7 @@ p {
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
-  
+
 }
 .modal-close {
  cursor: pointer;
@@ -156,7 +156,7 @@ p {
   border: none;
   top: 30px;
   right: 30px;
-
+font-size: 15px;
   width: 10px;
   height: 10px;
   /* UI Properties */
@@ -222,7 +222,7 @@ p {
   left: 112px;
 
   width: 432px;
-  
+
 
   font-size: 14px;
   font-weight: 400;
@@ -326,11 +326,11 @@ p {
 @media screen and (max-width: 600px) {
 
   .modal {
-    overflow: hidden; 
+    overflow: hidden;
     height: 100vh;
     width: 100vw;
     box-shadow: none;
-  
+
   }
   #firstLabel p, #firstLabel span, #secondLabel,#firstUnderLabel,#secondUnderLabel, #installment {
     text-align: left;
@@ -339,7 +339,7 @@ margin-top: 10vh;
  left: 15px;
     font-size: 110% ;
 
-   
+
   }
     #monthsWord {
       top: 5px;
