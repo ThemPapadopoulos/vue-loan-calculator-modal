@@ -156,7 +156,7 @@ p {
   border: none;
   top: 30px;
   right: 30px;
-
+  font-size: 15px;
   width: 10px;
   height: 10px;
   /* UI Properties */
